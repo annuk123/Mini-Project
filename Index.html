@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza hunt</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+
+            <a href="#"><img src="logo-removebg-preview.png" class="logo"></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+
+        
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What <br><span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae laboriosam repudiandae quam
+                    impedit
+                    possimus rerum fugit quis optio accusamus eaque minus quaerat odit, aspernatur, saepe omnis officia
+                    dignissimos voluptatum.</p>
+                <a href="">View All Products</a>
+
+            </div>
+            <div class="imgBox">
+                <img src="pizza-png-31.png" class="pizza">
+
+            </div>
+        </div>
+
+
+        <ul class="thumb">
+          <li><img src="251-2518261_meal-of-the-day-pizza-en-png.png" onclick="imgslider('251-2518261_meal-of-the-day-pizza-en-png.png')"></li>
+
+          <li><img src="png-clipart-pizza-3d-printing-food-printer-paper-hamburguer-3d-computer-graphics-recipe-removebg-preview.png" onclick="imgslider('png-clipart-pizza-3d-printing-food-printer-paper-hamburguer-3d-computer-graphics-recipe-removebg-preview.png')"></li>
+
+          <li><img src="pizza-png-22.png" onclick="imgslider('pizza-png-22.png')"></li>
+        </ul>
+
+
+
+
+        <ul class="sci">
+            <li><a href=""><img src="tiwtter-x-icon-Logo-Vector.svg--removebg-preview.png" alt=""></a></li>
+            <li><a href=""><img src="png-transparent-instagram-vector-brand-logos-icon-removebg-preview.png" alt=""></a></li>
+            <li><a href=""><img src="Black-facebook-icon-on-transparent-background-PNG-removebg-preview.png" alt=""></a></li>
+        </ul>
+    </section>
+
+
+
+<script type="text/javascript">
+    function imgslider(anything){
+        document.querySelector('.pizza').src = anything;
+    }
+</script>
+
+
+</body>
+
+</html>
